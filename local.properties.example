@@ -1,0 +1,6 @@
+# Copy to local.properties (git-ignored) and fill in your own values.
+#   cp local.properties.example local.properties
+# Alternatively set the SPRING_DATASOURCE_URL / _USERNAME / _PASSWORD environment variables.
+spring.datasource.url=jdbc:postgresql://localhost:5432/flowdesk
+spring.datasource.username=postgres
+spring.datasource.password=change-me
